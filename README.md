@@ -26,6 +26,12 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 
 We have followed the [Typescript support](https://vuejs.org/v2/guide/typescript.html) as described on the official Vue.js website, and the [blog post](https://medium.com/the-vue-point/upcoming-typescript-changes-in-vue-2-5-e9bd7e2ecf08) of Even You.
 
+### csnext development
+
+If you want to work with a local version of @csnext you can clone the [github repository](https://github.com/TNOCS/csnext) and use `yarn` to setup local links to the relevant @csnext libraries. 
+
+You can then use these links in your applications by running `yarn csdev`. With this setup you are able to work on your local @csnext instance. For now this is working with yarn, but if you prefer npm, you would be able to set this up yourself. 
+
 ### Fork It And Make Your Own
 
 You can fork this repo to create your own boilerplate, and use it with `vue-cli`:

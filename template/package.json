@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "csdev": "yarn link @csnext/cs-client && yarn link @csnext/cs-core"
   },
   "dependencies": {
     "@csnext/cs-client": "^0.0.4",
